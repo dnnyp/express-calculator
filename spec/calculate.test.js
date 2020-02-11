@@ -21,5 +21,5 @@ test('incorrect operator', () => {
 });
 
 test('incorrect operator 2', () => {
-  expect(calculate('lgjaegiljeaifja', 1, 2)).toBe('Sorry, please enter a valid operator!');
+  expect(calculate('addition', 1, 2)).toBe('Sorry, please enter a valid operator!');
 });
