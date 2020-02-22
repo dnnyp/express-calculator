@@ -19,3 +19,7 @@ test('divide 18 / 2 to equal 9', () => {
 test('incorrect operator', () => {
   expect(calculate('asdfghjkl', 1, 2)).toBe('Sorry, please enter a valid operator!');
 });
+
+test('incorrect operator', () => {
+  expect(calculate('asdfghjkdawfawfawl', 1, 2)).toBe('Sorry, please enter a valid operator!');
+});
